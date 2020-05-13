@@ -1,0 +1,6 @@
+---
+- hosts: 52.78.232.195
+  become: yes
+  tasks:
+   - name: disable selinux
+     command: "setenforce 0"

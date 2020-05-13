@@ -1,0 +1,5 @@
+---
+- hosts: 13.209.17.114
+  become: yes
+  roles:
+  - apache
