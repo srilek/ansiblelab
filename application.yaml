@@ -15,4 +15,4 @@
   - name: run the script
     shell: /home/ansible/program.sh
     register: output
-  - debug: msg=" output is {{output.stdout}}
+  - debug: msg=" output is {{output.stdout}} "
